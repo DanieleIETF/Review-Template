@@ -1,5 +1,3 @@
-# Ops-Dir Review Template
-
 Hi,
 
 I have been selected as the Operational Directorate (opsdir) reviewer for this Internet-Draft. 
@@ -11,37 +9,37 @@ A complete set of _"Guidelines for Considering Operations and Management in IETF
 While these comments are primarily for the Operations and Management Area Directors (Ops ADs), the authors should consider them alongside other feedback received.
 
 
-**Document**: [Internet-Draft Name and Revision]
+  Document  : [Internet-Draft Name and Revision]
 
-**Reviewer**: [Your Name]
+  Reviewer  : [Your Name]
 
-**Review Date**: [Date]
+  Review Date  : [Date]
 
-**Intended Status**: [Proposed Status, e.g., Standards Track] 
+  Intended Status  : [Proposed Status, e.g., Standards Track] 
 
  
 ---
 
-## **Summary** 
+##   Summary   
 
 Choose one: 
 
-- **Ready**: No issues found. This document is ready for publication. 
+-   Ready  : No issues found. This document is ready for publication. 
 
-- **Has Nits**: This document is basically ready for publication but has nits that should be considered prior to publication.
+-   Has Nits  : This document is basically ready for publication but has nits that should be considered prior to publication.
 
-- **Has Issues**: I have some minor concerns about this document that I think should be resolved before publication.
+-   Has Issues  : I have some minor concerns about this document that I think should be resolved before publication.
  
-- **Has Major Issues**: I have significant concerns about this document and recommend that the OPS ADs discuss these issues further with the authors.
+-   Has Major Issues  : I have significant concerns about this document and recommend that the OPS ADs discuss these issues further with the authors.
 
 
-## **General Operational Comments Alignment with RFC 5706bis** 
+##   General Operational Comments Alignment with RFC 5706bis   
 
 Provide an overview of the draft’s operational feasibility, readability, and alignment with RFC5706bis guidelines. Example: 
 
-> *This document defines a mechanism for [X]. While the technical approach is sound, Section [X] lacks clarity on how the mechanism would deploy.*
+>  This document defines a mechanism for [X]. While the technical approach is sound, Section [X] lacks clarity on how the mechanism would deploy. 
 
-> *The Operational Considerations section (Section X) should be expanded to address [Z].* 
+>  The Operational Considerations section (Section X) should be expanded to address [Z].  
 
 
 
@@ -49,13 +47,13 @@ Explicitly evaluate compliance with operational guidelines (optional but recomme
 
 For example the check list: 
 
-- **Fault Management**: Are failure detection/recovery mechanisms specified? 
+-   Fault Management  : Are failure detection/recovery mechanisms specified? 
 
-- **Configuration Management**: Are configuration changes to enable/disable the feature clearly defined? 
+-   Configuration Management  : Are configuration changes to enable/disable the feature clearly defined? 
 
-- **Performance Monitoring**: Are metrics (e.g., latency, resource usage) clearly identified? 
+-   Performance Monitoring  : Are metrics (e.g., latency, resource usage) clearly identified? 
 
-| **Review Item**                | **RFC 5706 Considerations**                                                                               
+|   Review Item                  |   RFC 5706 Considerations                                                                                 
 |------------------------------- |-------------------------------------------------------------------------------------------------------
 | Deployment                     | Does the document include a description of how this protocol or technology is going to be deployed and managed? 
 | Installation and Initial Setup | Are configuration parameters clearly identified and do they have reasonable default values?           
@@ -71,46 +69,46 @@ For routing protocols, example as
 
   
 
-## **Major Issues** 
+##   Major Issues   
 
 List critical problems blocking publication (e.g., protocol flaws, missing operational safeguards, or lack of manageability considerations). Include section/paragraph references. 
 
-- **Example**: 
+-   Example  : 
 
- > *Section 4.2 describes [feature] but does not specify how operators can monitor its performance (RFC 5706 Section 3.6). This omission could lead to undiagnosed failures in production networks.* 
+ >  Section 4.2 describes [feature] but does not specify how operators can monitor its performance (RFC 5706 Section 3.6). This omission could lead to undiagnosed failures in production networks.  
 
 - If none: 
 
- > *No major issues found.* 
+ >  No major issues found.  
 
  
 
 ---
 
-## **Minor Issues** 
+##   Minor Issues   
 
 List non-blocking but important clarifications (e.g., ambiguous terminology or incomplete examples). 
 
-- **Example**: 
+-   Example  : 
 
- > *Section 2.1 uses "node" without defining its scope (physical/virtual). Add a reference to RFC 8345 for consistency.* 
+ >  Section 2.1 uses "node" without defining its scope (physical/virtual). Add a reference to RFC 8345 for consistency.  
 
 - If none: 
 
- > *No minor issues found.* 
+ >  No minor issues found.  
 
  
 ---
 
-## **Nits** 
+##   Nits   
 
 Optional editorial suggestions (e.g., acronym expansions or grammar fixes). 
 
-- **Example**: 
+-   Example  : 
 
- > *Abstract*: Expand "NFV" on first use. 
+ >  Abstract : Expand "NFV" on first use. 
 
- > Section 3.1: "it’s" -> "its".* 
+ > Section 3.1: "it’s" -> "its".  
 
 
 ---
